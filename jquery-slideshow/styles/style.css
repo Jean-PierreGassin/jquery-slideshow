@@ -1,0 +1,21 @@
+/* Simple Slider by Jean-Pierre Gassin @ http://jpgassin.com */
+
+/* Hide the slider images to begin with */
+.sliderImage {
+	display: none;
+	border-radius: 3px 3px 3px 3px;
+	z-index: 1;
+}
+
+/* Now lets style the slider container */
+/* Change the width of the container to suit your image sizes */
+#simple-slider {
+	text-align: center;
+	width: 600px;
+	margin: 0 auto;
+    min-height: 330px;
+    max-height: auto;
+    padding: 30px;
+    border-radius: 5px 5px 5px 5px;
+    background-color:rgba(200, 255, 200, 0.2);
+}
